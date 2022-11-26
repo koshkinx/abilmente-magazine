@@ -1,0 +1,155 @@
+.menu_header {
+  align-items: center;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+  /* margin-top: 13px; */
+  color: #3d3935;
+  justify-content: space-evenly;
+}
+.dropdown-toggle::after {
+  border: 0;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0em;
+  content: url(../img/Vector\ 5.png);
+  /* border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent; */
+}
+.inputi {
+  border: 0;
+  background: url(../img/Icona\ -\ lente.png) no-repeat center right;
+  background-position-x: 159px;
+  border-right: 1px solid #f2f2f2;
+  border-radius: 0;
+}
+input[type="search"]:focus {
+  box-shadow: 0 0 0 0rem rgba(242, 242, 242, 1);
+  border-color: rgba(242, 242, 242, 1);
+}
+.second_party {
+  background: url(../img/young-woman-repainting-furniture-with-diy-2021-08-28-11-04-49-utc.png)
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.second_party_first_col {
+  color: white;
+  padding: 300px 0 50px;
+}
+.second_party_first_col-h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 103.5%;
+  padding-bottom: 10px;
+}
+
+.carousel-control-prev {
+  left: -125px;
+}
+
+.carousel-control-prev-icon {
+  width: 20px;
+  background-image: url(../img/налево.png);
+}
+.carousel-control-next {
+  right: -125px;
+}
+.carousel-control-next-icon {
+  width: 20px;
+  background-image: url(../img/направо.png);
+}
+.bibi1 {
+  padding: 87px 0 107px 83px;
+}
+.bigend {
+  padding-right: 186px;
+}
+@media (max-width: 1399px) {
+  .full-5col {
+    flex-wrap: wrap;
+  }
+  .colomboco_3 {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1100px) {
+  .carousel-control-prev {
+    left: -100px;
+  }
+
+  .carousel-control-next {
+    right: -100px;
+  }
+}
+@media (max-width: 991px) {
+  .happyend {
+    width: 41%;
+  }
+  .bigend {
+    padding-right: 0;
+  }
+  .buk {
+    flex-direction: column;
+  }
+  .buk_1 {
+    width: 100%;
+  }
+  .bibi {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 820px) {
+  .carousel-control-prev {
+    left: -70px;
+  }
+
+  .carousel-control-next {
+    right: -70px;
+  }
+}
+
+@media (max-width: 540px) {
+  .nine {
+    width: 100%;
+  }
+  .nine_ul {
+    width: 46%;
+  }
+  .six_6 {
+    flex-direction: column;
+  }
+  .second_party_first_col {
+    width: 100%;
+    padding: 0;
+  }
+  .second_party_first_col-h1 {
+    width: 85%;
+    margin: 8% auto;
+    font-size: 26px;
+  }
+  .col-5-cop {
+    width: 100%;
+  }
+  .big-flower {
+    width: 76%;
+    margin: 2% auto;
+  }
+  .row-row {
+    flex-direction: row;
+  }
+  .colombo-3 {
+    flex-direction: column;
+  }
+  .colombo-3-1 {
+    width: 100%;
+  }
+  .colombo-3-2 {
+    display: flex;
+    width: 100%;
+  }
+}
