@@ -85,6 +85,9 @@ input[type="search"]:focus {
   }
 }
 @media (max-width: 991px) {
+  .colombo-3-1 {
+    margin-right: 0rem !important;
+  }
   .happyend {
     width: 41%;
   }
@@ -111,6 +114,9 @@ input[type="search"]:focus {
   .carousel-control-next {
     right: -70px;
   }
+  .colombo-3-1 {
+    margin-right: 0rem !important;
+  }
 }
 
 @media (max-width: 540px) {
@@ -121,7 +127,6 @@ input[type="search"]:focus {
     width: 46%;
   }
   .six_6 {
-    flex-direction: column;
   }
   .second_party_first_col {
     width: 100%;
@@ -151,5 +156,10 @@ input[type="search"]:focus {
   .colombo-3-2 {
     display: flex;
     width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .angela {
+    font-size: 13px;
   }
 }
