@@ -67,6 +67,20 @@ input[type="search"]:focus {
 .bigend {
   padding-right: 186px;
 }
+.card_txt {
+  margin-top: 74px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #3d3d3c;
+}
+.txt_chng {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #3d3d3c;
+}
 @media (max-width: 1399px) {
   .full-5col {
     flex-wrap: wrap;
@@ -120,6 +134,10 @@ input[type="search"]:focus {
 }
 
 @media (max-width: 540px) {
+  .card_txt {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .nine {
     width: 100%;
   }
@@ -154,8 +172,10 @@ input[type="search"]:focus {
     width: 100%;
   }
   .colombo-3-2 {
-    display: flex;
-    width: 100%;
+  }
+  .txt_chng {
+    font-size: 13px;
+    margin-bottom: 1px;
   }
 }
 @media (max-width: 390px) {
